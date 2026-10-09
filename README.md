@@ -40,8 +40,12 @@ directly use the commands below:
   $ toolbox enter alpine-toolbox-3.20
   ```
 
-- [Amazon Linux] Note: Only Amazon Linux 2 comes with [EPEL] enabled by default:
-  ```
+- [Amazon Linux]:
+  Note: Amazon Linux 2027 is currently available as a preview.
+  ```shell
+  $ toolbox create --image quay.io/toolbx-images/amazonlinux-toolbox:2027
+  $ toolbox enter amazonlinux-toolbox-2027
+
   $ toolbox create --image quay.io/toolbx-images/amazonlinux-toolbox:2023
   $ toolbox enter amazonlinux-toolbox-2023
 
@@ -197,6 +201,7 @@ See [COPYING](COPYING).
 [AlmaLinux]: https://hub.docker.com/_/almalinux
 [Alpine Linux]: https://hub.docker.com/_/alpine
 [Amazon Linux]: https://gallery.ecr.aws/amazonlinux/amazonlinux
+[AL2027 preview]: https://docs.aws.amazon.com/linux/al2027/ug/container.html
 [Arch Linux]: https://hub.docker.com/_/archlinux/
 [CentOS (Stream)]: https://www.centos.org/centos-stream/
 [EPEL]: https://docs.fedoraproject.org/en-US/epel/

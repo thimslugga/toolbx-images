@@ -32,7 +32,7 @@ jobs:
     uses: ./.github/workflows/build-push-images.yaml
     with:
       distro: amazonlinux
-      releases: 2 2023
+      releases: 2 2023 2027
       latest-release: 2023
       registry: quay.io/toolbx-images
       platforms: linux/amd64, linux/arm64

@@ -1,0 +1,10 @@
+bash
+curl
+dnf5
+gawk
+grep
+libcap
+p11-kit
+rpm
+sed
+tar
